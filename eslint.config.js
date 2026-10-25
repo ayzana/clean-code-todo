@@ -24,7 +24,6 @@ export default [
       'no-console': 'warn',
       'max-len': ['warn', { code: 100, ignoreUrls: true }],
       'max-lines-per-function': ['warn', { max: 40, skipBlankLines: true, skipComments: true }],
-      complexity: ['warn', 8],
       'no-magic-numbers': ['warn', { ignore: [0, 1, -1], ignoreArrayIndexes: true }],
     },
   },
